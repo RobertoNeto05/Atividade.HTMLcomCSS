@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Atividade CSS Avançado — Exemplo</title>
+
+  <!-- fonte parecida com a da imagem -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <!-- só um gradiente sutil no topo (opcional) -->
+    </header>
+
+    <main class="container">
+      <section class="main-col">
+        <!-- HERO / WELCOME -->
+        <article class="card hero">
+          <div class="hero-left">
+            <h1>Bem-vindo(a)!</h1>
+            <p class="lead">Esta é uma atividade de CSS avançado com layout moderno.</p>
+            <a class="btn primary" href="#comecar">Começar</a>
+          </div>
+          <div class="hero-glow" aria-hidden="true"></div>
+        </article>
+
+        <!-- ABOUT -->
+        <article class="card about">
+          <h2>Sobre</h2>
+          <p>Nesta página você praticará seletores avançados, pseudo-classes, pseudo-elementos, transições, box model, positioning e layout com Flexbox e CSS Grid.</p>
+
+          <ul class="checklist">
+            <li>Seletores combinados e de atributo</li>
+            <li>Pseudo-classes (:hover, :focus, :first-child)</li>
+            <li>Pseudo-elementos (::before, ::after)</li>
+            <li>Transições e efeitos</li>
+            <li>Responsividade com @media</li>
+          </ul>
+        </article>
+
+        <!-- SERVICES -->
+        <article class="card services">
+          <h2>Serviços</h2>
+
+          <div class="services-grid">
+            <div class="service">
+              <h3>Layout Responsivo</h3>
+              <p>Monte páginas que se adaptam a qualquer tela.</p>
+              <a class="btn outline" href="#">Saiba mais</a>
+            </div>
+
+            <div class="service">
+              <h3>Componentes Reutilizáveis</h3>
+              <p>Crie cartões, botões e barras de navegação escaláveis.</p>
+              <a class="btn outline" href="#">Saiba mais</a>
+            </div>
+
+            <div class="service">
+              <h3>Acessibilidade</h3>
+              <p>Aprenda boas práticas para tornar sua UI inclusiva.</p>
+              <a class="btn outline" href="#">Saiba mais</a>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <aside class="side-col">
+        <div class="card tip">
+          <h3>Dica Rápida</h3>
+          <p>Use <code>box-sizing: border-box</code> para facilitar o cálculo de larguras.</p>
+          <a class="mini-link" href="#">Voltar ao topo</a>
+        </div>
+
+        <div class="card links">
+          <h3>Links Úteis</h3>
+          <ul>
+            <li><a href="#">MDN CSS</a></li>
+            <li><a href="#">CSS-Tricks</a></li>
+            <li><a href="#">web.dev CSS</a></li>
+          </ul>
+        </div>
+
+
+  </div>
+</body>
+</html>
